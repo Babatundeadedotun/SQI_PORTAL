@@ -1,0 +1,950 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background-color: white;
+    height: 85px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    top: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+.logo{
+    width: 85px;
+    height: 80px;
+    margin-left: 120px;
+    margin-right: 300px;
+}
+.navlist{
+    display: flex;
+    margin-top: 20px;
+}
+#navitem{
+
+    color: #12288E;
+}
+
+.collegelogo{
+    margin: 130px;
+    margin-top: 190px;
+}
+
+.college{
+    background: linear-gradient(180deg,rgba(150,105,97,0.67) 0%,rgba(2,0,76,0.84) 100%), url(img/Library-2-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  /*same as 100% */
+    background-position: center;
+    margin-top: -105px;
+    height: 70vh;
+    margin-bottom: 50px;
+}
+
+.board{
+    margin: 130px;
+
+}
+
+.boardofadvisorscard{
+
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.boa1{
+    
+    width: 50%;
+    background-color: #FEFEFE;
+    height: 530px;
+}
+
+.boa2{
+    
+    width: 50%;
+    background-color: #FEFEFE;
+    height: 20px;
+}
+
+.executives{
+    margin-top: -50px;
+    background-color: #F9F9F9;
+    margin-bottom: 750px;
+    height: 220vh;
+    padding: 0 76px;
+}
+.admin{
+    margin-top: -5px;
+}
+
+.admincards{
+        display: flex;
+        gap: 50px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+}
+
+.card1{
+    width: 20%;
+    background-color: #FEFEFE;
+    height: 390px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.card2{
+    width: 20%;
+    background-color: #FEFEFE;
+    height: 390px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.card3{
+    width: 20%;
+    background-color: #FEFEFE;
+    height: 415px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.card4{
+    width: 20%;
+    background-color: #FEFEFE;
+    height: 415px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.card5{
+    width: 20%;
+    background-color: #FEFEFE;
+    height: 420px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.HOD{
+    margin-top: -5px;
+}
+
+.HODcards{
+    display: flex;
+        gap: 50px;
+        margin-top: 60px;
+        margin-bottom: 5px;
+}
+
+.HODcard1{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.HODcard2{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.HODcard3{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.HODcard4{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.instructor{
+    margin-top: -5px;
+}
+
+.instructorcards{
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+.instructorcards2{
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+.instructorcard1{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.instructorcard2{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.instructorcard3{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.instructorcard4{
+    width: 25%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.instructorcard5{
+    width: 21%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+.instructorcard6{
+    width: 21%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+.instructorcard7{
+    width: 21%;
+    background-color: #FEFEFE;
+    height: 470px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.1);
+}
+
+.enquiry{
+    display: flex;
+    padding: 80px;
+    gap: 100px;
+    color: #666666;
+}
+
+.enguiry1{
+    width: 20%;
+    padding-left: 150px;
+}
+
+.enguiry2{
+    width: 20%;
+}
+.enguiry3{
+    width: 20%;
+}
+.enguiry4{
+    width: 20%;
+}
+.enguiry5{
+    width: 20%;
+    /* padding: 50px; */
+}
+
+.enquirylink{
+    text-decoration: none;
+    color: #534D47;
+    font-size: 15px
+}
+
+.mediaicons{
+    display: flex;
+    gap: 27px;
+}
+
+.joinlink{
+
+    text-decoration: none;
+    
+}
+
+.footer{
+    background-color: #050044;
+    padding-left: 130px;
+    margin-bottom: 0px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width:1024px) {
+    #collapse{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:376px) {
+    #collapse{
+        margin-left: 300px;
+        padding-top: 5px;
+    }
+    .navlist{
+        display: none;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .college{
+        width: 135%;
+    }
+    .collegelogo{
+        width: 70%;
+    }
+    .boardofadvisorscard{
+        display: grid;
+    }
+    .boardofadvisors{
+        width: 320%;
+        margin-left: -50px;
+        height: 170vh;
+    }
+    .boa1{
+        width: 100%;
+    }
+    .boa2{
+        width: 100%;
+        margin-top: -150px
+    }
+    .boapara{
+        font-size: 22px !important;
+    }
+    .executives{
+        width: 440%;
+        height: 330vh;
+    }
+    .board{
+        height: 500vh;
+    }
+    #boa1{
+        height: 180vh;
+    }
+    #boa2{
+        height: 180vh !important;
+    }
+    .admin{
+        margin-top: 50px;
+        height: 530vh;
+    }
+    .admincards{
+        display: grid;
+    }
+    .card1{
+        width: 340%;
+        margin-left: -70px;
+        height: 90vh;
+    }
+    .card2{
+        width: 340%;
+        margin-left: -70px;
+        height: 90vh;
+    }
+    .card3{
+        width: 340%;
+        margin-left: -70px;
+        height: 90vh;
+    }
+    .card4{
+        width: 340%;
+        margin-left: -70px;
+        height: 90vh;
+    }
+    .card5{
+        width: 340%;
+        margin-left: -70px;
+        height: 90vh;
+    }
+    .HODcards{
+        display: grid;
+        
+    }
+    .HOD{
+        height: 200vh;
+    }
+    .HODhead{
+        width: 300%;
+        margin-left: -70px;
+    }
+
+    .HODcard1{
+        height: 80vh;
+        width: 100%;
+    }
+    .HODcard2{
+        height: 80vh;
+        width: 100%;
+    }
+    .HODcard3{
+        height: 80vh;
+        width: 100%;
+    }
+    .HODcard4{
+        height: 80vh;
+        width: 100%;
+
+    }
+    .instructor{
+        margin-top: 1300px;
+    }
+    .instructorcards{
+        display: grid;
+    }
+    .instructorcard1{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard2{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard3{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard4{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard5{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard6{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard7{
+        width: 330%;
+        margin-left: -60px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcards2{
+        display: grid;
+    }
+
+    .enquiry{
+        display: grid;
+        margin-top: 11400px;
+    }
+    .enquiry1{
+        font-size: 22px;
+    }
+    .enquiry2{
+        font-size: 25px;
+    }
+    .enquiry3{
+        font-size: 23px;
+    }
+    .enquiry4{
+        font-size: 23px;
+    }
+    .enquiry5{
+        font-size: 23px;
+    }
+    .footer{
+        width: 135%;
+        height: 15vh;
+    }
+    .footerpara{
+        margin-left: -40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #collapse{
+        margin-top: -70px !important;
+        margin-left: 400px !important;
+    }
+    /* #collapse{
+        margin-top: -100px;
+        margin-left: 400px;
+    } */
+    .navlist{
+        display: none;
+    }
+    
+    .logo{
+        margin-left: 50px;
+    }
+    .college{
+        width: 135%;
+        height: 50vh;
+    }
+    .boardofadvisorscard{
+        display: grid;
+    }
+    .boardofadvisors{
+        width: 320%;
+        margin-left: -90px;
+        height: 170vh;
+    }
+    .boa1{
+        width: 100%;
+    }
+    .boa2{
+        width: 100%;
+        margin-top: -150px
+    }
+    .boapara{
+        font-size: 25px !important;
+    }
+    .executives{
+        width: 370%;
+        height: 330vh;
+    }
+    .board{
+        height: 500vh;
+    }
+    #boa1{
+        height: 180vh;
+    }
+    #boa2{
+        height: 180vh !important;
+        margin-top: 20px;
+    }
+    .exec{
+        font-size: 24px !important;
+
+    }
+    .admin{
+        margin-top: 50px;
+        height: 530vh;
+    }
+    .admincards{
+        display: grid;
+    }
+    .card1{
+        width: 320%;
+        margin-left: -100px;
+        height: 90vh;
+    }
+    .card2{
+        width: 320%;
+        margin-left: -100px;
+        height: 90vh;
+    }
+    .card3{
+        width: 342%;
+        margin-left: -100px;
+        height: 90vh;
+    }
+    .card4{
+        width: 320%;
+        margin-left: -100px;
+        height: 90vh;
+    }
+    .card5{
+        width: 320%;
+        margin-left: -100px;
+        height: 90vh;
+    }
+    .cardtext{
+        font-size: 25px !important;
+    }
+
+    .HODcards{
+        display: grid;
+        
+    }
+    .HOD{
+        height: 200vh;
+    }
+    .HODhead{
+        width: 300%;
+        margin-left: -70px;
+    }
+
+    .HODcard1{
+        height: 80vh;
+        width: 100%;
+    }
+    .HODcard2{
+        height: 80vh;
+        width: 100%;
+    }
+    .HODcard3{
+        height: 80vh;
+        width: 100%;
+    }
+    .HODcard4{
+        height: 80vh;
+        width: 100%;
+
+    }
+    .instructor{
+        margin-top: 1400px;
+    }
+    .instructorcards{
+        display: grid;
+    }
+    .instructorcard1{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard2{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard3{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard4{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard5{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard6{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcard7{
+        width: 310%;
+        margin-left: -70px;
+        margin-bottom: 70px;
+        height:90vh;
+    }
+    .instructorcards2{
+        display: grid;
+    }
+
+    .enquiry{
+        display: grid;
+        margin-top: 14590px;
+    }
+
+    .enquiry1{
+        font-size: 22px;
+    }
+    .enquiry2{
+        font-size: 25px;
+    }
+    .enquiry3{
+        font-size: 23px;
+    }
+    .enquiry4{
+        font-size: 23px;
+    }
+    .enquiry5{
+        font-size: 23px;
+    }
+    .footer{
+        width: 138%;
+        height: 15vh;
+    }
+    .footerpara{
+        margin-left: -40px;
+        font-size: 23px;
+    }
+   
+}
+
+@media screen and (max-width:820px) {
+    #collapse{
+        margin-top: -65px;
+        margin-left: 600px;
+    }
+    .navlist{
+        display: none;
+    }
+    .exec{
+        font-size: 20px !important;
+    }
+    .admin{
+        margin-top: -1000px;
+    }
+    .admincards{
+        display: grid;
+    }
+    .card1{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .card2{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .card3{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .card4{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .card5{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .cardtext{
+        font-size: 28px !important;
+    }
+    .HODcards{
+        display: grid;
+    }
+    .HODcard1{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .HODcard2{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .HODcard3{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .HODcard4{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcards{
+        display: grid;
+    }
+    .instructorcard1{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcard2{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcard3{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcard4{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcards2{
+        display: grid;
+    }
+    .instructorcard5{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcard6{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .instructorcard7{
+        width: 100%;
+        margin-bottom: 400px;
+    }
+    .enquiry{
+        display: grid;
+    }
+
+    .enquiry1{
+        font-size: 22px !important;
+    }
+    .enquiry2{
+        font-size: 35px !important;
+    }
+    .enquiry3{
+        font-size: 23px !important;
+    }
+    .enquiry4{
+        font-size: 23px !important;
+    }
+    .enquiry5{
+        font-size: 23px !important;
+    }
+    .footer{
+        width: 100%;
+        height: 15vh;
+    }
+    .footerpara{
+        margin-left: -40px;
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    #collapse{
+        margin-top: -82px;
+        margin-left: 600px;
+    }
+    .admin{
+        margin-top: 10px !important;
+    }
+}
+@media screen and (max-width:280px) {
+  
+    #collapse{
+        margin-top: -85px;
+        margin-left: 310px;
+    }
+    .college{
+        width: 150%;
+    }
+    .collegelogo{
+        padding-top: -10px;
+        padding-left: -10px;
+        justify-content: center;
+        padding-left: -80px;
+    }
+    .boardofadvisors{
+        width: 350% !important;
+        margin-left: -90px;
+        height: 170vh;
+    }
+    .board{
+        height: 300vh;
+    }
+    .boardhead{
+        width: 500%;
+    }
+    .executives{
+        width: 350% !important;
+        margin-left: -90px;
+        height: 430vh;
+    }
+    .exehead{
+        width: 700%;
+    }
+    #boa1{
+        width: 200%;
+        margin-bottom: 50vh;
+    }
+    #boa2{
+        width: 200%;
+        margin-bottom: 50vh;
+    }
+    .admin{
+        margin-top: 390px;
+        margin-left: -90px;
+        height: 750vh;
+    }
+    .card1{
+        margin-left: 10px;
+        width: 200%;
+    }
+    .card2{
+        margin-left: 10px;
+        width: 200%;
+        margin-top: -320px;
+    }
+    .card3{
+        margin-left: 10px;
+        width: 200%;
+        margin-top: -320px;
+    }
+    .card4{
+        margin-left: 10px;
+        width: 200%;
+        margin-top: -320px;
+    }
+    .card5{
+        margin-left: 10px;
+        width: 200%;
+        margin-top: -320px;
+    }
+    .HOD{
+        margin-top: -950px;
+        height: 300vh;
+    }
+    .HODhead{
+        width: 900%;
+    }
+    .HODcard1{
+        width: 155%;
+        height: 90vh;
+    }
+    .HODcard2{
+        width: 155%;
+        height: 90vh;
+        margin-top: -300px;
+    }
+    .HODcard3{
+        width: 155%;
+        height: 90vh;
+        margin-top: -300px;
+    }
+    .HODcard4{
+        width: 155%;
+        height: 90vh;
+        margin-top: -300px;
+    }
+    .instructorcard1{
+        width: 350%;
+    }
+    .instructorcard2{
+        width: 350%;
+        margin-top: -300px;
+    }
+    .instructorcard3{
+        width: 350%;
+        margin-top: -300px;
+    }
+    .instructorcard4{
+        width: 350%;
+        margin-top: -300px;
+    }
+
+    .instructorcard5{
+        width: 350%;
+        margin-top: -300px;
+    }
+    .instructorcard6{
+        width: 350%;
+        margin-top: -300px;
+    }
+    .instructorcard7{
+        width: 350%;
+        margin-top: -300px;
+    }
+    .footer{
+        width: 150%;
+    }
+   
+}
+@media screen  and (max-width:390px){
+    #collapse{
+        margin-top: -70px;
+        margin-left: 400px;
+    }
+}

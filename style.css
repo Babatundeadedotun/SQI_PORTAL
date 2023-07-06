@@ -1,0 +1,1360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: white;
+    height: 85px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    top: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+#navitem{
+
+    color: #12288E;
+}
+
+.logo{
+    width: 85px;
+    height: 80px;
+    margin-left: 120px;
+    margin-right: 450px;
+}
+
+.navlist{
+    display: flex;
+    margin-top: -65px;
+    margin-left: 490px;
+}
+
+.main{
+    color: #1A0052;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 95px;
+    margin-top: 80px;
+}
+
+.middle {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 85px;
+}
+
+.mainhead{
+    font-size: 90px;
+}
+.headimg{
+    margin-right: 50px;
+    width: 90%;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 100px;
+    height: 557px;
+}
+
+.headbutton {
+
+    background-color: #00208A;
+    color: white;
+    border-radius: 12px;
+    width: 140px;
+    height: 55px;
+    border-style: none;
+    font-size: 15px;
+}
+
+.glancewriting{
+    width: 50%;
+    margin-left: 47%;
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 90px;
+}
+
+.glance{
+
+    background: url("img/backimg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  /*same as 100% */
+    background-position: center;
+    height: 95vh;
+    
+}
+
+.alumni{
+    width: 70%;
+    font-size: 10px;
+    margin-left: 140px;
+}
+
+.alumniwork{
+
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.alumniimg{
+
+    margin-left: 200px;
+   
+}
+
+.graduate{
+    
+    width: 720px;
+    height: 450px;
+}
+
+.vision{
+    display: flex;
+    gap: 60px;
+    background-color: #F0FAFF;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    height: 690px;
+}
+
+.visiontext{
+    width: 30%;
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.courses{
+    width: 80%;
+    margin-bottom: 550px;
+}
+
+.coursetext{
+
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+
+
+
+.PBL{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.PBLpara{
+    font-size: 18px;
+}
+
+#job{
+    margin-left: 190px;
+}
+
+.fa-solid{
+    position: relative;
+    top: 115px;
+    left: -60px;
+}
+
+.why{
+    margin-left: 50px;
+}
+
+#why1{
+    width:40%;
+    margin-right: 150px;
+    margin-top: -70px;
+
+}
+
+#why2{
+    width:40%;
+    margin-right: 100px;
+    margin-top: -70px;
+}
+
+#why3{
+    width:40%;
+    margin-right: 150px;
+    margin-top: -70px;
+}
+#why4{
+    width:150%;
+    margin-top: -70px;
+}
+
+#why5{
+    width:290%;
+    margin-right: 100px;
+    margin-left: -30px;
+    margin-top: -70px;
+}
+#why6{
+    width:150%;
+    margin-right: 150px;
+    margin-top: -80px;
+}
+#why7{
+    width: 20%;
+    margin-right: 150px;
+    margin-top: -80px;
+}
+
+#why8{
+    width: 20%;
+    margin-top: -80px;
+}
+.alumniitem{ 
+    height: 55px;
+    width: 13%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.alumniitem1{ 
+    height: 55px;
+    width: 13%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.learnmore{
+
+    color: white;
+    border: 2px solid white;
+    background-color: none;
+    margin-top: 20px;
+    border-radius: 0px;
+    width: 130px;
+}
+.innerwhy{
+    padding: 50px;
+    padding-left: 120px;
+}
+
+.whystudy{
+    bottom: 900px;
+    margin-top: -450px;
+    font-size: 150px;
+    width: 100%;
+    contain: content;
+    background-color: #EAEAEC;
+}
+
+.why{
+    display: flex;
+    width: 100%;
+    font-size: 50px;
+}
+
+.testimonials{
+    margin: 60px;
+    margin-left: 130px;
+    height: 80vh;
+}
+.testimonialhead{
+    font-size: 50px;
+}
+.testimoniallink{
+    text-decoration: none;
+    color: #534D47;
+}
+
+.toursection{
+    /* background: linear-gradient(rgba(101,51,105, 0.5),rgba(0,4,70, 0.7)),url("img/backimg.jpg"); */
+    background-size:cover;  /*same as 100% */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-bottom: 430px;
+
+}
+
+.iframe{
+    margin: 70px;
+}
+
+.tour{
+    display: flex;
+    background: linear-gradient(rgba(101,51,105, 0.5),rgba(0,4,70, 0.7)),url("img/backimg.jpg");
+}
+
+.tourtext{
+    color: white;
+
+}
+
+#tourtext{
+    font-size: 70px;
+    padding-top: 60px;
+}
+
+.tourtextpara{
+    font-size: 18px;
+    color: white;
+    width: 85%;
+}
+
+.ready{
+    background-color: #000B3F;
+    height: 420px;
+    color: white;
+    padding: 80px;
+    padding-left: 130px;
+}
+
+.readytexthead{
+    font-size: 19px;
+}
+
+.readytexthead1{
+    font-size: 70px;
+}
+
+.readypara{
+    width: 53%;
+    font-size: 17px;
+}
+
+.joinlink{
+
+    text-decoration: none;
+    color: white;
+}
+
+.joinbutton{
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #00208A;
+  color: #FFFFFF;
+  border: none;
+  font-size: 15px;
+}
+
+.news{
+    margin: 110px;
+    margin-top: 500px;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.readmore{
+    height: 50px;
+    width: 140px;
+    background-color: #00208A;
+  border-radius: 25px;
+  color: #FFFFFF;
+  border: none;
+  font-size: 15px;
+
+}
+/* .news{
+    display: flex;
+    margin-bottom: 45px;
+} */
+
+.latestnews{
+    width: 100%;
+    /* margin-left: 20px; */
+}
+
+.newsection{
+    height: 900px;
+    background-color: #EFF0FE;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.card{
+    width: 25%;
+    /* margin-left: 38%; */
+    margin-bottom: -4%;
+    height: 600px;
+    padding-bottom: 150px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    border-radius: 0;
+}
+
+.mother{
+    display: flex;
+    gap: 60px;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+
+.card1{
+    background-color: #D5EAF3;
+    box-shadow: 10px 10px 85px 35px rgb(210,233,214);
+    margin-top: 70px;
+    border-radius: 35px;
+    padding: 50px;
+    height: 700px;
+    margin-bottom: 40px;
+    width: 520px;
+}
+
+.card2{
+    border-radius: 35px;
+    background-color: #E0D5C0;
+    box-shadow: 10px 10px 85px 35px rgb(210,233,214);
+    height: 700px;
+    padding: 50px;
+    padding-bottom: 700px;
+    width: 520px;
+
+}
+
+.card3{
+    width: 450px;
+    box-shadow: 10px 10px 85px 35px rgb(254,224,219);
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 750px;
+    background-color: #EEEFBD;
+}
+.card4{
+    width: 450px;
+    box-shadow: 10px 10px 85px 35px rgb(254,224,219);
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 35px;
+    /* margin-top: 20px; */
+    margin-bottom: 90px;
+    height: 890px;
+    background-color: #DFD5E8;
+}
+
+.card-title{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.whysection{
+    margin-top: -50px;
+}
+
+.newscard{
+    display: flex;
+    gap: 35px;
+    margin: 40px;
+    margin-left: 110px;
+}
+
+.newscard1{
+    
+    width: 29%;
+    background-color: #FEFEFE;
+    height: 530px;
+}
+
+.newscard2{
+    
+    width: 29%;
+    background-color: #FEFEFE;
+    height: 560px;
+}
+
+.newscard3{
+
+    width: 29%;
+    background-color: #FEFEFE;
+    height: 480px;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.enquiry{
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+    color: #666666;
+    /* height: 90vh; */
+}
+
+.enguiry1{
+    width: 20%;
+}
+
+.enguiry2{
+    width: 20%;
+}
+.enguiry3{
+    width: 20%;
+}
+.enguiry4{
+    width: 20%;
+}
+.enguiry5{
+    width: 20%;   padding: 50px;
+}
+
+.enquirylink{
+    text-decoration: none;
+    color: #534D47;
+    font-size: 15px;
+}
+.mediaicons{
+    display: flex;
+    gap: 27px;
+}
+
+.footer{
+    background-color: #050044;
+    color: white;
+    padding-left: 130px;
+    margin-bottom: 0px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+/* always clear your float using float:left; clear:left; */
+
+
+@media screen and (max-width: 1024px) {
+
+    .nav{
+        background-color: white;
+        height: 85px;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+        top: 0px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    }
+
+    .navlist{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 50px;
+
+    }
+
+    .logo{
+        width: 55px;
+        height: 55px;
+        margin-left: 80px;
+        margin-right: 170px;
+    }
+
+    .vision{
+        display: grid;
+        /* gap: 60px; */
+        background-color: #F0FAFF;
+        padding-bottom: 50px;
+        padding-top: 80px;
+        padding-left: 160px;
+        margin-bottom: 150px;
+        height: 950px;
+    }
+
+    .visiontext{
+        width: 80%;
+        font-size: 20px;
+        padding-top: 0px;
+        margin-left: 50px;
+        padding-bottom: 30px;
+    }
+
+    .courses{
+        width: 60%;
+        margin-bottom: 550px;
+        margin-right: 90px;
+        padding-right: 90px;
+    
+    }
+
+    .mother{
+        display: grid;
+        gap: 60px;
+        margin-left: 90px;
+        margin-bottom: 0;
+    }
+
+    .card1{
+        margin-left: 110px;
+    }
+    .card2{
+        margin-left: 110px;
+    }
+    .card3{
+        margin-left: 115px;
+        width: 80%;
+    }
+
+    .card4{
+        margin-left: 115px;
+        width: 80%;
+    }
+
+    
+}
+@media screen and (min-width:1024px) {
+
+    .footersection{
+        visibility: hidden;
+    }
+    #collapse{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:820px) {
+    #collapse{
+        margin-left: 300px;
+        padding-top: 17px;
+    }
+    .logo{
+        width: 23%;
+        height: 7vh;
+    }
+
+    .navlist{
+        margin-left: 150px;
+        margin-top: -60px;
+        display: none;
+    }
+    .mainhead{
+        font-size: 45px;
+    }
+    .headimg{
+        width: 100%;
+    }
+    .glance{
+        height: 90vh;
+        width: 105%;
+    }
+    .glancewriting{
+        font-size: 25px;
+    }
+    .alumniimg{
+        width: 105%;
+        margin-left: 20px;
+    }
+    .alumniitem{
+        width: 15%;
+        height: 6vh;
+    }
+    .alumniitem1{
+        width: 15%;
+        height: 6vh;
+    }
+    .vision{
+        height: 100vh;
+        width: 105%;
+    }
+    .graduate{
+        padding-right: 130px;
+        margin-bottom: 0;
+    }
+    .visiontext{
+        margin-top: -70px;
+    }
+    .coursehead{
+        font-size: 50px;
+    }
+    .coursepara{
+        font-size: 30px;
+    }
+    .courselink{
+        font-size: 30px;
+    }
+    .card1{
+        height: 100vh;
+    }
+    .card2{
+        height: 100vh;
+    }
+    .card3{
+        height: 100vh;
+    }
+    .card4{
+        height: 125vh;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 25px;
+    }
+    .card-tex{
+        font-size: 25px;
+    }
+    .techpara{
+        font-size: 25px;
+    }
+    .why{
+        display: grid;
+    }
+    #job{
+        margin-left: 20px;
+    }
+    #jobicon{
+        margin-left: -160px;
+    }
+    #why1{
+        width: 80%;
+    }
+    #why2{
+        width: 80%;
+    }
+    #why3{
+        width: 80%;
+    }
+    #why4{
+        width: 80%;
+    }
+    #why5{
+        width: 80%;
+    }
+    #why6{
+        width: 80%;
+    }
+    #why7{
+        width: 80%;
+    }
+    #why8{
+        width: 80%;
+    }
+    .PBL{
+        font-size: 25px;
+    }
+    .PBLpara{
+        font-size: 23px;
+    }
+    .testimonials{
+        height: 50vh;
+    }
+    .testimoniallink{
+        font-size: 23px;
+    }
+    .whystudy{
+        width: 105%;
+    }
+    .tour{
+        display: grid;
+    }
+    .toursection{
+        margin-bottom: 250px;
+        height: 90vh;
+    }
+    .tourtext{
+        margin-left: 40px;
+    }
+    #tourtext{
+        margin-left: 0;
+    }
+    .tourtextpara{
+        font-size: 25px;
+    }
+    .ready{
+      height: 50vh;
+    }
+    .readypara{
+        font-size: 22px;
+    }
+    .ction{
+        height: 70vh;
+    }
+
+    .footer{
+        width: 105%;
+        height: 10vh;
+    }
+    .footerpara{
+        font-size: 25px;
+    }
+    .footersection{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .glance{
+        width: 115%;
+        height: 90vh;
+        display: grid;
+    }
+    .glancewriting{
+        width: 80%;
+        margin-left: 90px;
+    }
+    .alumniimg{
+        width: 110%;
+    }
+    .vision{
+        width: 115%;
+        height: 110vh;
+    }
+    .whystudy{
+        width: 115%;
+    }
+    .card1{
+        height: 110vh;
+    }
+    .card2{
+        height: 115vh;
+    }
+    .card3{
+        height: 105vh;
+    }
+    .card4{
+        height: 140vh;
+    }
+    .toursection{
+        height: 100vh;
+        width: 115%;
+    }
+    .ready{
+        height: 60vh;
+    }
+    .ction{
+        height: 80vh;
+    }
+    .footer{
+        width: 115%;
+    }
+    
+}
+@media screen and (max-width:412px) {
+
+   .logo{
+    width: 130px;
+   }
+   
+    
+}
+@media screen and (max-width: 376px) {
+    
+    #collapse{
+        margin-left: 300px;
+        padding-top: 20px;
+    }
+
+    .navlist{
+       display: none;
+    }
+    .logo{
+        height: 20vh;
+    }
+    .nav{
+        height: 20vh;
+    }
+    .middle{
+        display: grid;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .main{
+        width: 180%;
+    }
+    .mainpara{
+        font-size: 25px;
+    }
+    .headbutton{
+        font-size: 30px;
+        width: 35%;
+        height: 15vh;
+    }
+    .headimg{
+        width: 180%;
+        height: 120vh;
+        margin-left: 50px;
+    }
+    .glance{
+        width: 225%;
+        height: 150vh;
+    }
+    .alumniwork{
+        width: 100%;
+        display: grid;
+    }
+    .alumniimg{
+        display: flex;
+        gap: 50px;
+        margin-left: 0;
+    }
+    .alumniitem1{
+        width: 180%;
+        height: 12vh;
+        margin-left: 120px;
+    }
+    .alumniitem{
+        width: 180%;
+        height: 12vh;
+    }
+    .vision{
+        width: 225%;
+        height: 180vh;
+    }
+    .graduate{
+        width: 100%;
+        padding-right: 90px;
+    }
+    .visiontext{
+        font-size: 25px;
+    }
+    .coursehead{
+        font-size: 45px;
+    }
+    .coursepara{
+        font-size: 25px;
+    }
+    .courselink{
+        font-size: 30px;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 25px;
+    }
+    .card-tex{
+        font-size: 25px;
+    }
+    .card1{
+        height: 180vh;
+    }
+    .card2{
+        height: 180vh;
+    }
+    .card3{
+        height: 180vh;
+    }
+    .card4{
+        height: 210vh;
+    }
+    .whystudy{
+        width: 225%;
+    }
+    .toursection{
+        width: 225%;
+        height: 170vh;
+    }
+    .ready{
+        height: 100vh;
+    }
+    .readypara{
+        font-size: 30px;
+    }
+    .tour{
+        display: grid;
+    }
+    .tourtext{
+        padding-left: 70px;
+    }
+    #tourtext{
+        padding-left: 10px;
+    }
+    .ction{
+        width: 225%;
+        height: 190vh;
+    }
+    .card-para{
+        font-size: 22px;
+    }
+    .enquirylink{
+        font-size: 20px;
+    }
+    .footer{
+        width: 225%;
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width:414px) {
+
+    #collapse{
+        margin-left: 330px;
+        padding-top: 40px;
+    }
+
+    .navlist{
+        display: none;
+    }
+    .nav{
+        height: 15vh;
+    }
+    .logo{
+        height: 15vh;
+    }
+    .middle{
+        display: grid;
+        gap: 50px;
+    }
+    .main{
+        width: 175%;
+    }
+    .mainpara{
+        font-size: 25px;
+    }
+    .headbutton{
+        width: 40%;
+        height: 13vh;
+        font-size: 30px;
+    }
+    .headimg{
+        width: 195%;
+        height: 100vh;
+        margin-left: 7px;
+    }
+    .glance{
+        width: 205%;
+        height: 120vh;
+    }
+    .glancewriting{
+        font-size: 30px;
+        width: 90%;
+        padding-left: 90px;
+        margin-left: 0;
+    }
+    .learnmore{
+        font-size: 30px;
+        width: 50%;
+    }
+    .alumhead{
+        font-size: 35px;
+        width: 180%;
+    }
+    .alumniimg{
+        display: grid;
+    }
+    .alumniitem{
+        width: 200%;
+        height: 20vh;
+        margin-left: 10px;
+    }
+    .alumniitem1{
+        width: 200%;
+        height: 20vh;
+    }
+    .vision{
+        width: 205%;
+        height: 130vh;
+    }
+    .graduate{
+        padding-right: 120px;
+    }
+    .visiontext{
+        font-size:25px;
+    }
+    .coursehead{
+        font-size: 50px;
+    }
+    .coursepara{
+        font-size: 30px;
+    }
+    .courselink{
+        font-size: 30px;
+    }
+    .card1{
+        height: 130vh;
+    }
+    .card2{
+        height: 150vh;
+    }
+    .card3{
+        height: 130vh;
+    }
+    .card4{
+        height: 180vh;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 26px;
+    }
+    .card-tex{
+        font-size: 25px;
+    }
+    .whystudy{
+        width: 205%;
+        height: 260vh;
+    }
+    .why{
+        display: grid;
+    }
+    #job{
+        margin-left: 19px;
+    }
+    #jobicon{
+        margin-left: -160px !important;
+    }
+    #why1{
+        width: 80%;
+    }
+    #why2{
+        width: 80%;
+    }
+    #why3{
+        width: 80%;
+    }
+    #why4{
+        width: 80%;
+    }
+    #why5{
+        width: 80%;
+    }
+    #why6{
+        width: 80%;
+    }
+    #why7{
+        width: 80%;
+    }
+    #why8{
+        width: 80%;
+    }
+    .PBL{
+        font-size: 28px;
+    }
+    .PBLpara{
+        font-size: 28px;
+    }
+    .testimonials{
+        width: 150%;
+    }
+    .testimonialhead{
+        font-size: 55px;
+    }
+    .testimoniallink{
+        font-size: 30px;
+        width: 75%;
+    }
+    .toursection{
+        width: 205%;
+        height: 120vh;
+    }
+    .tour{
+        display: grid;
+    }
+    .tourtext{
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+    #tourtext{
+        margin-left: 0;
+    }
+    .tourtextpara{
+        font-size: 30px;
+    }
+    .ready{
+        height: 70vh;
+    }
+    .readytexthead{
+        font-size: 30px;
+    }
+    .readypara{
+        font-size: 30px;
+        width: 100%;
+    }
+    .joinbutton{
+        width: 40%;
+        height: 10vh;
+    }
+    .joinlink{
+        font-size: 30px;
+    }
+    .ction{
+        width: 130%;
+        height: 370vh;
+    }
+    .news{
+        gap: 20px;
+        width: 100%;
+        font-size: 10px;
+    }
+    .joinlink{
+        font-size: 30px;
+    }
+    .readmore{
+        width: 200%;
+        height: 10vh;
+    }
+    #latest{
+        font-size: 40px !important;
+    }
+    .newscard{
+        display: grid;
+    }
+    .newscard1{
+        width: 150%;
+        height: 120vh;
+    }
+    .newscard2{
+        width: 150%;
+        height: 120vh;
+    }
+    .newscard3{
+        width: 150%;
+        height: 120vh;
+    }
+    .card-para{
+        font-size: 33px;
+    }
+    .cardtext{
+        font-size: 30px !important;
+    }
+    .enquiry{
+        width: 190%;
+        display: grid;
+        margin-left: 60px;
+    }
+    .enquiry1{
+        
+        font-size: 35px;
+    }
+    .enqhead{
+        font-size: 30px;
+    }
+    .enquiry2{
+        font-size: 35px;
+
+    }
+    .enquirylinkhead{
+        font-size: 35px;
+    }
+    .enquirylink{
+        font-size: 35px;
+    }
+    .footer{
+        width: 205%;
+        height: 20vh;
+    }
+    .footerpara{
+        font-size: 35px;
+    }
+  
+}
+
+@media screen and (max-width:280px) {
+
+    #collapse{
+        margin-left: 250px;
+        padding-top: 40px;
+    }
+    .logo{
+        height: 20vh;
+    }
+    .nav{
+        height: 20vh;
+    }
+    .mainhead{
+        font-size: 60px;
+    }
+    .mainpara{
+        font-size: 40px;
+    }
+    .headimg{
+        width: 220%;
+        margin-left: 80px;
+    }
+    .glance{
+        width: 275%;
+        height: 200vh;
+    }
+    .glancewriting{
+        width: 90%;
+        font-size: 35px;
+    }
+    .alumniitem{
+        width: 100%;
+        margin-left: 190px;
+    }
+
+    .alumniitem1{
+        width: 100%;
+        margin-left: 190px;
+    }
+    .vision{
+        height: 200vh;
+        width: 280%;
+    }
+    .visiontext{
+        margin-top: -100px;
+    }
+    .card1{
+        height: 190vh;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .card2{
+        height: 190vh;
+        margin-left: 10px;
+    }
+    .card3{
+        height: 190vh;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .card4{
+        height: 220vh;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .whystudy{
+        width: 285%;
+        height: 370vh;
+    }
+    .testimonials{
+        height: 110vh;
+    }
+    .toursection{
+        width: 285%;
+        height: 200vh;
+    }
+    .ready{
+        height: 100vh;
+    }
+    .ction{
+        height: 530vh;
+    }
+    .news{
+        width: 150%;
+    }
+    .newscard{
+        width: 120%;
+    }
+    .newscard1{
+        height: 170vh;
+    }
+    .newscard2{
+        height: 170vh;
+    }
+    .newscard3{
+        height: 170vh;
+    }
+    .footer{
+        width: 290%;
+    }
+    .footerpara{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

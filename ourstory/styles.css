@@ -1,0 +1,663 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background-color: white;
+    height: 85px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    top: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+.logo{
+    width: 85px;
+    height: 80px;
+    margin-left: 120px;
+    margin-right: 450px;
+}
+.navlist{
+    display: flex;
+    margin-top: -65px;
+    margin-left: 490px;
+}
+#navitem{
+
+    color: #12288E;
+}
+
+.collegelogo{
+    margin: 130px;
+    margin-top: 190px;
+}
+
+.college{
+    background: linear-gradient(to right,rgba(203,210,220,0.7),rgba(0,10,120,0.9)),url(img/img20.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  /*same as 100% */
+    background-position: center;
+    margin-top: -105px;
+    height: 100vh;
+}
+
+.about{
+    margin: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.head{
+    background-color: #EFEFEF;
+    margin-top: -35px;
+    height: 25vh;
+    padding: 50px;
+    padding-top: 40px;
+}
+
+.vismis{
+
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+p{
+    color: #666666;
+}
+
+.vismistext{
+    width: 50%;
+}
+
+.vismisdess{
+    width: 50%;
+}
+.abouttext{
+    margin-top: 20px;
+}
+
+.value{
+    background-color: #EFEFEF;
+    padding: 50px;
+    height: 15vh;
+    padding-top: 28px;
+}
+.features{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 250px;
+}
+
+.respectunity{
+    width: 30%;
+    gap: 50px;
+} 
+
+.respect{
+    margin-bottom: 90px;
+}
+
+.punctuality{
+    width: 30%;
+    margin-left: 60px;
+}
+
+.leadership{
+    width: 30%;
+    margin-left: 50px;
+}
+
+.deliverknowledge{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+#seeworkshop:hover {
+    color: #FFFFFF;
+}
+
+.enquiry{
+    display: flex;
+    padding: 80px;
+    gap: 100px;
+    color: #666666;
+}
+
+.enguiry1{
+    width: 20%;
+    padding-left: 150px;
+}
+
+.enguiry2{
+    width: 20%;
+}
+.enguiry3{
+    width: 20%;
+}
+.enguiry4{
+    width: 20%;
+}
+.enguiry5{
+    width: 20%;
+}
+
+.enquirylink{
+    text-decoration: none;
+    color: #534D47;
+    font-size: 15px
+}
+
+.mediaicons{
+    display: flex;
+    gap: 27px;
+}
+
+.joinlink{
+
+    text-decoration: none;
+    
+}
+
+.footer{
+    background-color: #050044;
+    padding-left: 130px;
+    margin-bottom: 0px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+@media screen and (min-width:1024px) {
+
+    #collapse{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:376px) {
+   
+    #collapse{
+        margin-top: -95px;
+        margin-left: 510px;
+    }
+    .logo{
+       height: 16vh;
+       width: 12%;
+    }
+    .navlist{
+        display: none;
+    }
+    .nav{
+        height: 16vh;
+    }
+    .college{
+        width: 240%;
+    }
+    .collegelogo{
+        margin-left: 200px;
+        padding-top: 50px;
+    }
+    .head{
+        width: 900%;
+    }
+    .headabout1{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .headabout2{
+        font-size: 45px;
+    }
+    .vismis{
+        display: grid;
+    }
+    .vismistext{
+        width: 280%;
+        font-size: 45px;
+    }
+    .missionhead{
+        font-size: 40px;
+    }
+    .missionpara{
+        font-size: 37px;
+        width: 210%;
+    }
+    .visionhead{
+        font-size: 40px;
+    }
+    .visionpara{
+        font-size: 37px;
+        width: 210%;
+    }
+    .abouttext{
+        width: 500%;
+        font-size:40px;
+        margin-left: 10px;
+    }
+    .target{
+        font-size: 40px !important;
+        margin-top: 30px;
+    }
+    .aboutpara{
+        width: 170%;
+    }
+    .para{
+        width: 170%;
+    }
+    .li{
+        width: 180%;
+    }
+    .value{
+        width: 180%;
+        height: 20vh;
+    }
+    #corevalue{
+        padding: -50px;
+        margin-bottom: 240px;
+    }
+    .features{
+        display: grid;
+    }
+    .respectunity{
+        width: 150%;
+    }
+    .enquiry{
+        width: 50%;
+        display: grid;
+    }
+    .respecthead{
+        font-size: 35px;
+    }
+    .learn{
+        font-size: 40px !important;
+    }
+    .unityhead{
+        font-size: 35px;
+    }
+    .punctuality{
+        width: 150%;
+        margin-left: 10px;
+    }
+    .leadership{
+        width: 150%;
+        margin-left: 10px;
+    }
+    .punchead{
+        font-size: 35px;
+    }
+    .leaderhead{
+        font-size: 35px;
+    }
+
+    .deliverknowledge{
+        margin-bottom: 250px;
+        width: 400%;
+    }
+    .delhead{
+        font-size: 38px;
+        width: 200%;
+    }
+    #seeworkshop{
+        font-size: 30px;
+        width: 200%;
+    }
+    .enquiry{
+        margin-left: 50px;
+    }
+    .enquiry1{
+        width: 190%;
+        font-size: 35px;
+    }
+    .enquiry2{
+        width: 100%;
+        font-size: 35px;
+    }
+    .enquirylink{
+        font-size: 30px;
+    }
+    .enquiry3{
+        width: 100%;
+        font-size: 35px;
+    }
+    .enquiry4{
+        width: 190%;
+        font-size: 35px;
+    }
+    .enquiry5{
+        width: 100%;
+        font-size: 35px;
+    }
+    .enqhead{
+        font-size: 30px;
+    }
+    .footer{
+        height: 15vh;
+        width: 240%;
+    }
+    .footerpara{
+        font-size: 27px;
+    }
+}
+@media screen and (max-width:414px) {
+    #collapse{
+        margin-left: 330px;
+        padding-top: 40px;
+    }
+    .navlist{
+        display: none;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .college{
+        width: 140%;
+        height: 70vh;
+    }
+    .collegelogo{
+        margin-left: 60px;
+        padding-top: 50px;
+    }
+    .enquiry{
+        display: grid;
+    }
+    .head{
+        width: 350%;
+        height: 15vh;
+        margin-left: -50px;
+    }
+    .vismis{
+        display: grid;
+    }
+    .vismistext{
+        width: 350%;
+        margin-left: -90px;
+        font-size: 25px;
+    }
+    .vismisdes{
+        width: 350%;
+        margin-left: -90px;
+        font-size: 25px;
+    }
+    .abouttext{
+        width: 370%;
+        margin-left: -90px;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .aboutpara{
+        margin-top: 10px;
+    }
+    .target{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .value{
+        margin-top: 40px;
+    }
+    #corevalue{
+        font-size: 35px;
+    }
+    .features{
+        display: grid;
+    }
+    .respectunity{
+        width: 100%;
+    }
+    .punctuality{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .leadership{
+        width: 100%;
+        margin-left: 5px;
+    }
+    .respecthead{
+        font-size: 30px;
+    }
+    .unityhead{
+        font-size: 30px;
+    }
+    .punchead{
+        font-size: 30px;
+    }
+    .leaderhead{
+        font-size: 30px;
+    }
+    .learn{
+        font-size: 30px !important;
+    }
+    .deliverknowledge{
+        width: 260%;
+        margin-bottom: 20px;
+    }
+    .delhead{
+        font-size: 30px;
+    }
+    #seeworkshop{
+        font-size: 25px;
+    }
+    .enquiry{
+        margin-left: 30px;
+    }
+    .enquiry1{
+      font-size: 28px;
+      width: 200%;
+    }
+    .enquiry2{
+        font-size: 28px;
+        width: 200%;
+      }
+      .enquiry3{
+        font-size: 28px;
+        width: 200%;
+      }
+      .enquiry4{
+        font-size: 28px;
+        width: 100%;
+      }
+      .enquiry5{
+        font-size: 28px;
+        width: 100%;
+      }
+      .enqhead{
+        font-size: 30px;
+      }
+      .enquirylink{
+        font-size: 30px;
+      }
+      .footer{
+        width: 143%;
+        height: 13vh;
+      }
+      .footerpara{
+        margin-left: -50px;
+        font-size: 25px;
+      }
+
+}
+@media screen and (max-width:390px) {
+
+    .college{
+        width: 148%;
+    }
+    .about{
+        width: 30%;
+    }
+    .vismistext{
+        font-size: 35px;
+        width: 400%;
+    }
+    .missionpara{
+        font-size: 30px;
+    }
+    .visionpara{
+        font-size: 30px;
+    }
+    .abouttext{
+        font-size: 35px;
+    }
+    .target{
+        font-size: 40px;
+    }
+    .footer{
+        width: 150%;
+    }
+    
+}
+@media screen and (max-width:820px) {
+
+    #collapse{
+        margin-top: -65px;
+        margin-left: 710px;
+    }
+    .navlist{
+        display: none;
+    }
+    .college{
+        height: 50vh;
+        width: 110%;
+    }
+    .head{
+        height: 10vh;
+    }
+    .vismis{
+        display: grid;
+    }
+    .vismistext{
+        font-size: 28px;
+        width: 100%;
+    }
+    .vismisdes{
+        font-size: 28px;
+    }
+    .abouttext{
+        font-size: 30px;
+    }
+    .value{
+        margin-top: 40px;
+    }
+    #corevalue{
+        font-size: 40px;
+        padding: 40px;
+    }
+    .respectunity{
+        width: 35%;
+        font-size: 40px;
+    }
+    .punctuality{
+        font-size: 40px;
+        width: 35%;
+    }
+    .leadership{
+        width: 35%;
+        font-size: 40px;
+    }
+    .learn{
+        font-size: 30px !important;
+    }
+    .deliverknowledge{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    #seeworkshop{
+        font-size: 30px;
+    }
+    .target{
+        font-size: 35px;
+    }
+    .enquiry{
+        display: grid;
+        margin-left: 50px;
+    }
+    .enquiry1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .enquiry2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .enquirylink{
+        font-size: 30px;
+    }
+    .enquiry3{
+        width: 100%;
+        font-size: 30px;
+    }
+    .enquiry4{
+        width: 100%;
+        font-size: 30px;
+    }
+    .enquiry5{
+        width: 100%;
+        font-size: 30px;
+    }
+    .enqhead{
+        font-size: 30px;
+    }
+    .footer{
+        width: 110%;
+        height: 10vh;
+    }
+    .footerpara{
+        font-size: 30px;
+        margin-left: -60px;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .college{
+        height: 60vh;
+    }
+}
+@media screen and (max-width:280px) {
+    #collapse{
+        margin-top: -95px;
+        margin-left: 510px;
+    }
+    .logo{
+        width: 13%;
+        height: 14vh;
+    }
+    .college{
+        height: 110vh;
+        width: 239%;
+    }
+    .head{
+        height: 20vh;
+        width: 550%;
+    }
+    .vismistext{
+        width: 650%;
+    }
+    .aboutpara{
+        font-size: 35px;
+    }
+    #corevalue{
+        margin-top: -30px;
+    }
+    .respectunity{
+        width: 170%;
+    }
+    .punctuality{
+        width: 170%;
+    }
+    .leadership{
+        width: 170%;
+    }
+    .deliverknowledge{
+        margin-left: -10px;
+    }
+    .footer{
+        width: 235%;
+        height: 20vh;
+    }
+}
